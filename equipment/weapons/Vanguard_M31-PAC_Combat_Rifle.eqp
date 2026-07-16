@@ -1,0 +1,99 @@
+{
+  "version": 5,
+  "rows": [
+    {
+      "id": "eM31PACRifleSP01",
+      "description": "Vanguard M31-PAC Combat Rifle (7.2mmCL)",
+      "reference": "Savage Planet Custom; UT138",
+      "local_notes": "High-capacity 7.2mm caseless combat rifle with compact targeting scope, backup iron sights, HUD link (cable or encrypted wireless), diagnostic computer, targeting assist, ammunition monitor, and internal rechargeable power cell. Includes integrated 25mmPC underbarrel grenade launcher. Component prices: rifle $109,760; grenade launcher $9,600. Final Savage Planet TL9 prices already include the setting's x32 cost adjustment.",
+      "tech_level": "9",
+      "legality_class": "2",
+      "tags": [
+        "Combat Rifles",
+        "Caseless Weapons",
+        "Vanguard Weapon Systems",
+        "Weapons"
+      ],
+      "base_value": "119360",
+      "base_weight": "9.46 lb",
+      "weapons": [
+        {
+          "id": "WM31PACRifleMode1",
+          "sv": 1,
+          "damage": {
+            "type": "pi",
+            "base": "6d-1"
+          },
+          "strength": "9†",
+          "usage": "7.2mmCL rifle",
+          "accuracy": "4",
+          "range": "750/4000",
+          "rate_of_fire": "15",
+          "shots": "100+1(3)",
+          "bulk": "-4",
+          "recoil": "2",
+          "defaults": [
+            {
+              "type": "skill",
+              "name": "Guns",
+              "specialization": "Rifle"
+            },
+            {
+              "type": "skill",
+              "name": "Guns",
+              "modifier": -2
+            },
+            {
+              "type": "dx",
+              "modifier": -4
+            }
+          ],
+          "calc": {
+            "damage": "6d-1 pi"
+          }
+        },
+        {
+          "id": "WM31PACGrenade01",
+          "sv": 1,
+          "damage": {
+            "type": "pi++",
+            "base": "4d"
+          },
+          "strength": "10",
+          "usage": "25mmPC underbarrel grenade launcher",
+          "accuracy": "5",
+          "range": "360/2200",
+          "rate_of_fire": "1",
+          "shots": "3(3)",
+          "recoil": "3",
+          "defaults": [
+            {
+              "type": "skill",
+              "name": "Guns",
+              "specialization": "Grenade Launcher"
+            },
+            {
+              "type": "skill",
+              "name": "Guns",
+              "modifier": -4
+            },
+            {
+              "type": "dx",
+              "modifier": -4
+            }
+          ],
+          "calc": {
+            "damage": "4d pi++"
+          }
+        }
+      ],
+      "quantity": 1,
+      "calc": {
+        "value": 119360,
+        "extended_value": 119360,
+        "weight": "9.46 lb",
+        "extended_weight": "9.46 lb"
+      }
+    }
+  ]
+}
