@@ -2,7 +2,7 @@
   "version": 5,
   "rows": [
     {
-      "id": "eM31PACRifleSP01",
+      "id": "eM31PACRifleSP001",
       "description": "Vanguard M31-PAC Combat Rifle (7.2mmCL)",
       "reference": "Savage Planet Custom; UT138",
       "local_notes": "High-capacity 7.2mm caseless combat rifle with compact targeting scope, backup iron sights, HUD link (cable or encrypted wireless), diagnostic computer, targeting assist, ammunition monitor, and internal rechargeable power cell. Includes integrated 25mmPC underbarrel grenade launcher. Component prices: rifle $109,760; grenade launcher $9,600. Final Savage Planet TL9 prices already include the setting's x32 cost adjustment.",
@@ -18,7 +18,7 @@
       "base_weight": "9.46 lb",
       "weapons": [
         {
-          "id": "WM31PACRifleMode1",
+          "id": "WM31PACRifleMde01",
           "sv": 1,
           "damage": {
             "type": "pi",
@@ -47,13 +47,10 @@
               "type": "dx",
               "modifier": -4
             }
-          ],
-          "calc": {
-            "damage": "6d-1 pi"
-          }
+          ]
         },
         {
-          "id": "WM31PACGrenade01",
+          "id": "WM31PACGrenade001",
           "sv": 1,
           "damage": {
             "type": "pi++",
@@ -81,19 +78,10 @@
               "type": "dx",
               "modifier": -4
             }
-          ],
-          "calc": {
-            "damage": "4d pi++"
-          }
+          ]
         }
       ],
-      "quantity": 1,
-      "calc": {
-        "value": 119360,
-        "extended_value": 119360,
-        "weight": "9.46 lb",
-        "extended_weight": "9.46 lb"
-      }
+      "quantity": 1
     }
   ]
 }
