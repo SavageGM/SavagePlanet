@@ -1,0 +1,19 @@
+<form class="sp-eng">
+<h2>{{actorName}}</h2>
+<div class="sp-grid">
+<label>Project<select name="type"><option value="invent">Invent</option><option value="upgrade">Upgrade / Modify</option><option value="repair">Repair</option></select></label>
+<label>Engineer Type<select name="kind"><option value="inventor">Inventor</option><option value="gadgeteer">Gadgeteer</option><option value="quick">Quick Gadgeteer</option></select></label>
+<label>Base Skill<input name="skill" type="number" value="12"></label>
+<label>Adjusted Project Value $<input name="value" type="number" value="1000" min="0"></label>
+<label>Tech Level<input name="tl" type="number" value="8" min="0" max="12"></label>
+<label><input name="superscience" type="checkbox"> Superscience (^)</label>
+<label>Workspace Modifier<input name="workspace" type="number" value="0"></label>
+<label>Repair Tools<select name="tools"><option value="proper">Proper (+0)</option><option value="improper">Improvised / improper (-5)</option><option value="none">None (-10)</option></select></label>
+<label>Effective Parts $<input name="parts" type="number" value="1000" min="0"></label>
+<label><input name="major" type="checkbox"> Major repair</label>
+<label>Major Repair 1d Result<input name="majorRoll" type="number" value="1" min="1" max="6"></label>
+<label>Other Modifiers<input name="other" type="number" value="0"></label>
+</div>
+<section class="sp-result" data-output></section>
+<button type="button" data-action="roll"><i class="fas fa-dice"></i> Roll Project</button>
+</form>
