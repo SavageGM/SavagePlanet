@@ -1,0 +1,1 @@
+.sp-eng{padding:12px}.sp-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.sp-grid label{display:flex;flex-direction:column;gap:3px}.sp-grid input,.sp-grid select{width:100%}.sp-result{margin:14px 0;padding:10px;border:1px solid var(--color-border-light-2);border-radius:5px}.sp-eng button[data-action=roll]{width:100%;font-weight:bold}
