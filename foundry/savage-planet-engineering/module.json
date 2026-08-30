@@ -1,0 +1,11 @@
+{
+  "id": "savage-planet-engineering",
+  "title": "Savage Planet Engineering",
+  "description": "Savage Planet engineering test console for GURPS Game Aid.",
+  "version": "0.1.0",
+  "authors": [{"name": "SavageGM"}],
+  "compatibility": {"minimum": "13", "maximum": "14", "verified": "14"},
+  "relationships": {"systems": [{"id": "gurps", "type": "system", "compatibility": {"minimum": "0.18.23"}}]},
+  "esmodules": ["scripts/main.js"],
+  "styles": ["styles/engineering.css"]
+}
